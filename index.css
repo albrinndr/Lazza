@@ -1,0 +1,110 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Open+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-text {
+    font-size: 24px;
+    letter-spacing: -2px;
+}
+
+nav {
+    text-transform: uppercase;
+    background-color: #000;
+}
+
+.nav-link {
+    color: #fff;
+    line-height: .7rem;
+    font-size: .9rem;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.cart_items {
+    width: 20px;
+    height: 20px;
+    background: red;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: -8px;
+    position: relative;
+    top: -9px;
+    color: white;
+}
+
+.icons img {
+    width: 1.3rem;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+#carouselExampleIndicators {
+    z-index: 0;
+}
+
+.whatsapp {
+    width: 4rem;
+    position: fixed;
+    z-index: 1;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.footer-logo-left {
+    width: 12rem;
+}
+
+footer {
+    background-color: black;
+    color: #be9509;
+    ;
+}
+
+.footer-row {
+    border-bottom: .2px solid rgb(124, 123, 123);
+}
+
+.social-media-link {
+    color: #be9509;
+}
+
+.footer-padding {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.text-height {
+    line-height: 1.5rem;
+}
+
+.prod-links{
+    text-decoration: none;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .simons-logo {
+        width: 8.2rem;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .main-logo{
+        width: 5rem;
+    }
+}
+.prod-head{
+    font-size: 34px;
+    font-weight: 600;
+}
